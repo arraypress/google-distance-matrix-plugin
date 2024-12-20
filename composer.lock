@@ -1,0 +1,79 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "32213ccdab6e74c139f2a40fce2c1f03",
+    "packages": [
+        {
+            "name": "arraypress/google-distance-matrix",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arraypress/google-distance-matrix.git",
+                "reference": "0d2ddc034943f584784a2c6170b3647c91a19fce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arraypress/google-distance-matrix/zipball/0d2ddc034943f584784a2c6170b3647c91a19fce",
+                "reference": "0d2ddc034943f584784a2c6170b3647c91a19fce",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ArrayPress\\Google\\DistanceMatrix\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "David Sherlock",
+                    "homepage": "https://arraypress.com/"
+                }
+            ],
+            "description": "A PHP library for integrating with the Google Distance Matrix API in WordPress, providing travel distance and time calculations between multiple origins and destinations. Features WordPress transient caching and WP_Error support.",
+            "homepage": "https://github.com/arraypress/google-distance-matrix/",
+            "keywords": [
+                "delivery-routing",
+                "delivery-time",
+                "distance-calculation",
+                "distance-matrix",
+                "ecommerce-shipping",
+                "google-maps",
+                "location-distance",
+                "multi-origin",
+                "route-calculation",
+                "shipping-distance",
+                "shipping-zones",
+                "transit-time",
+                "travel-distance",
+                "travel-time",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/arraypress/google-distance-matrix/issues",
+                "source": "https://github.com/arraypress/google-distance-matrix"
+            },
+            "time": "2024-12-19T18:25:44+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.4"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

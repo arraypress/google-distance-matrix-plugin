@@ -1,0 +1,58 @@
+/* Distance Matrix Admin Styles */
+.distance-matrix-test-container {
+    margin: 20px 0;
+}
+
+.distance-matrix-test-section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+}
+
+.distance-form,
+.calculation-form {
+    margin: 15px 0;
+}
+
+/* Results Table Styling */
+.status-ok {
+    color: #46b450;
+    font-weight: 500;
+}
+
+.status-error {
+    color: #dc3232;
+    font-weight: 500;
+}
+
+.distance-matrix-summary {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-left: 4px solid #007cba;
+}
+
+/* Form Controls */
+.calculation-form input[type="text"],
+.calculation-form select {
+    min-width: 300px;
+}
+
+.calculation-form .description {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Responsive Tables */
+@media screen and (max-width: 782px) {
+    .calculation-form input[type="text"],
+    .calculation-form select {
+        width: 100%;
+    }
+
+    .widefat td {
+        padding: 8px;
+    }
+}
